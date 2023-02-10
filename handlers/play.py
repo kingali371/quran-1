@@ -153,7 +153,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await fallen.edit(
-                "عليك كتابة اسم الاغنيه او الرد ع ملف صوتي"
+                "عليك كتابة الاسم كامل او الرد ع ملف صوتي"
             )
         await fallen.edit("⚡")
         query = message.text.split(None, 1)[1]
@@ -198,14 +198,14 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-               text=f"**⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰**\n» تم التشغيل «**\n● **الاسم​:** [{title[:65]}]({url})\n● **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n● **الدردشة​:** `{message.chat.title}`\n● **نوع التشغيل:** موسيقى\n**⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰**\n**",
+               text=f"**⊱⋅━═━═『 𝙈𝙍_𝙓 』═━═━⋅⊰**\n» تم التشغيل «**\n● **الاسم:** [{title[:65]}]({url})\n● **عدد دقائق:** `{duration}` العنوان\n🦦 **مطلوبة بواسطة:** {chumtiya}\n● **الدردشة:** `{message.chat.title}`\n● **نوع التشغيل:** قرآن كريم\n**⊱⋅━═━═『 𝙈𝙍_𝙓 』═━═━⋅⊰**\n**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                 InlineKeyboardButton("𓂄𓆩𝚂𝚄𝙿𝙿𝙾𝚁𝚃𓆪𓂁", url=f"https://t.me/{SUPPORT_GROUP}"),
                 ],
                 [
-                InlineKeyboardButton("𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/MRv7x")
+                InlineKeyboardButton("𓂄𓆩 أَلا بِذِكرِ اللَّهِ تَطمَئِنُّ القُلوبُ 𓆪𓂁", url=f"https://t.me/AzkarMusIim")
                 ],
                 [
                 InlineKeyboardButton(" ⚙️ ¦ اخفاء ", callback_data="close_play")
@@ -226,14 +226,14 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰**\n**» تم التشغيل «**\n● **الاسم​:** [{title[:65]}]({url})\n● **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n● **الدردشة​:** `{message.chat.title}`\n● **نوع التشغيل:** موسيقى\n**⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰**\n",
+            text=f"**⊱⋅━═━═『 𝙈𝙍_𝙓 』═━═━⋅⊰**\n**» تم التشغيل «**\n● **الاسم​:** [{title[:65]}]({url})\n● **عدد دقائق:** `{duration}` العنوان\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n● **الدردشة​:** `{message.chat.title}`\n● **نوع التشغيل:** قرآن كريم\n**⊱⋅━═━═『 𝙈𝙍_𝙓 』═━═━⋅⊰**\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("𓂄𓆩𝚂𝚄𝙿𝙿𝙾𝚁𝚃𓆪𓂁", url=f"https://t.me/{SUPPORT_GROUP}"),
                     ],
                     [
-                    InlineKeyboardButton("𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/MRv7x")
+                    InlineKeyboardButton("𓂄𓆩أَلا بِذِكرِ اللَّهِ تَطمَئِنُّ القُلوبُ𓆪𓂁", url=f"https://t.me/AzkarMusIim")
                 ],
                 [
                 InlineKeyboardButton(" ⚙️ ¦ اخفاء  ", callback_data="close_play")
