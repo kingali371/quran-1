@@ -23,7 +23,7 @@ from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
 
 
-def transcode(filename):
+def transcode(filename):السورهتت
     ffmpeg.input(filename).output("input.raw", format='s16le', acodec='pcm_s16le', ac=2, ar='48k').overwrite_output().run() 
     os.remove(filename)
 
@@ -81,7 +81,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**انضم المساعد إلى الدردشة الآن يمكنك تشغيل الأغاني**")
+                        message.chat.id, "**انضم المساعد إلى الدردشة الآن  **")
 
                 except UserAlreadyParticipant:
                     pass
@@ -180,7 +180,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await fallen.edit(
-                "**لم يتم العثور على أغنية جرب أغنية أخرى أو ربما تهجئتها بشكل صحيح**"
+                "**لم يتم العثور على السوره جرب شئ اخر  أو ربما تهجئتها بشكل صحيح**"
             )
             print(str(e))
             return
