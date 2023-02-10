@@ -23,10 +23,10 @@ async def start_(client: Client, message: Message):
                 InlineKeyboardButton("أضف لبوت لمجموعتك ✅", url=f"https://t.me/{bu}?startgroup=true"),
             ],
             [
-            InlineKeyboardButton( "𝘀𝗼𝗨𝗥𝗰𝗲 𝙈𝙍_𝙓",url=f"https://t.me/MUSTAR_X8"),
+            InlineKeyboardButton( "𝘀𝗼𝗨𝗥𝗰𝗲 𝙈𝙍_𝙓",url=f"https://t.me/AzkarMusIim"),
             ],
             [
-            InlineKeyboardButton("𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/AzkarMusIim"),
+            InlineKeyboardButton("𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/MR_X_N"),
               ],
               [ 
                   InlineKeyboardButton(
@@ -57,7 +57,7 @@ async def khalid(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                    "𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝚁_𝚇𓆪𓂁", url=f"https://t.me/MR_X_N"
+                    "𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝚁_𝚇𓆪𓂁", url=f"https://t.me/AzkarMusIim"
                 ),
             ],
             [
@@ -71,15 +71,15 @@ async def khalid(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
-        caption=f""" 𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘝𝘌𝘕𝘖𝘔 """,
+        caption=f""" 𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘔𝘙_𝘟 """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓂄𓆩𝙾𝚂𝙰𝙼𝙰 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/WWWL5"),
+                InlineKeyboardButton("𓂄𓆩𝙼𝚁_𝚇𓆪𓂁", url=f"https://t.me/MR_X_N"),
            ],
             [ 
                 InlineKeyboardButton(
-                    "𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/MRv7x"
+                    "𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝚁_𝚇𓆪𓂁", url=f"https://t.me/AzkarMusIim"
                 ),
             ],
             [
@@ -93,26 +93,24 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
-        caption=f"""[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)
+        caption=f"""[⊱⋅━═━═『 𝗠𝗥_𝗫 』═━═━⋅⊰](https://t.me/MR_X_N)
 
- [● قـنـاة الـسـورس 🎧](https://t.me/MRv7x)
- [● مـبـرمـج الـسـورس 👨‍✈️](https://t.me/WWWL5)
- [● مـطـوريـن السورس 👨‍💻](https://t.me/SOURCE_VENOM)
- [● تنصيب بوتك حماية ⚡](https://t.me/G1VENOMbot)
- [● تنصيب بوتك ميوزك 🎧](https://t.me/WWWL5)
+ [● قـنـاة الـسـورس 🎧](https://t.me/AzkarMusIim)
+ [● مـبـرمـج الـسـورس 👨‍✈️](https://t.me/MR_X_N)
+ [● تنصيب بوتك ميوزك 🎧](https://t.me/MR_X_N)
 
-[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)""",
+[⊱⋅━═━═『 𝗠𝗥_𝗫 』═━═━⋅⊰](https://t.me/MR_X_N)""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𝘀𝗼𝗨𝗥𝗰𝗲 𝘃𝗲𝗡𝗼𝗺", url=f"https://t.me/MRv7x"),
+                InlineKeyboardButton("𝘀𝗼𝗨𝗥𝗰𝗲 𝙈𝙍_𝙓", url=f"https://t.me/AzkarMusIim"),
             ],
             [
-            InlineKeyboardButton("𝗼𝘀𝗔𝗺𝗔 𝘃𝗲𝗡𝗼𝗺", url=f"https://t.me/WWWL5"),
+            InlineKeyboardButton("𝙈𝙍_𝙓", url=f"https://t.me/MR_X_N"),
             ],
             [
                 InlineKeyboardButton(
-                        "𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/SOURCE_VENOM"
+                        "𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/MR_X_N7"
                 ),
             ],
             [
