@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
+        photo=f"https://telegra.ph/file/14bb0f6b3b6036fafc6b7.jpg",
         caption=f""" 𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘔𝘙_𝘟 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -70,7 +70,7 @@ async def khalid(client: Client, message: Message):
 @Client.on_message(command(["المطور","مطور","المستر","مستر"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
+        photo=f"https://telegra.ph/file/14bb0f6b3b6036fafc6b7.jpg",
         caption=f""" 𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘔𝘙_𝘟 """,
         reply_markup=InlineKeyboardMarkup(
          [
@@ -92,7 +92,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["سورس","ياسورس","السورس","source","يا سورس"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
+        photo=f"https://telegra.ph/file/14bb0f6b3b6036fafc6b7.jpg",
         caption=f"""[⊱⋅━═━═『 𝗠𝗥_𝗫 』═━═━⋅⊰](https://t.me/MR_X_N)
 
  [● قـنـاة الـسـورس 🎧](https://t.me/AzkarMusIim)
