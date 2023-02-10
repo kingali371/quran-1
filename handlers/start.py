@@ -12,10 +12,10 @@ async def start_(client: Client, message: Message):
         photo=f"{START_IMG}",
         caption=f"""**⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n
 ● **انا بوت تشغيل وتنزيل الاغاني والفديو**\n
- ● **اضفني مشرف في مجموعتك لأعمل**\n
- ●**اتبع مايلي لمعرفه كيفيه الاستخدام**\n
- ● **اضغط علي ذر طريقه الاستخدام**\n
- ● **مميزات الروبوت يعمل بجودة فائقه**\n
+● **اضفني مشرف في مجموعتك لأعمل**\n
+● **اتبع مايلي لمعرفه كيفيه الاستخدام**\n
+● **اضغط علي ذر طريقه الاستخدام**\n
+● **مميزات الروبوت يعمل بجودة فائقه**\n
 **⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n""",
     reply_markup=InlineKeyboardMarkup(
              [
@@ -23,10 +23,10 @@ async def start_(client: Client, message: Message):
                 InlineKeyboardButton("أضف لبوت لمجموعتك ✅", url=f"https://t.me/{bu}?startgroup=true"),
             ],
             [
-            InlineKeyboardButton( " 🎙¦ قائمة الاوامر ",url=f"https://t.me/EE_74"),
+            InlineKeyboardButton( "𝘀𝗼𝗨𝗥𝗰𝗲 𝘃𝗲𝗡𝗼𝗺",url=f"https://t.me/MRv7x"),
             ],
             [
-            InlineKeyboardButton("𝘀𝗼𝗨𝗥𝗰𝗲 𝘃𝗲𝗡𝗼𝗺", url=f"https://t.me/MRv7x"),
+            InlineKeyboardButton("𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/SOURCE_VENOM"),
               ],
               [
                   InlineKeyboardButton(
@@ -34,7 +34,7 @@ async def start_(client: Client, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton("𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/SOURCE_VENOM"),
+                InlineKeyboardButton(" 🤖¦ لتنصيب بوتك ميوزك ", url=f"https://t.me/WWWL5"),
             ]
          ]
      )
@@ -98,8 +98,8 @@ async def help(client: Client, message: Message):
  [● قـنـاة الـسـورس 🎧](https://t.me/MRv7x)
  [● مـبـرمـج الـسـورس 👨‍✈️](https://t.me/WWWL5)
  [● مـطـوريـن السورس 👨‍💻](https://t.me/SOURCE_VENOM)
- [● جـروب الـسـورس ♨️](https://t.me/EE_47)
- [● تنصيب بوت مثل هذا 🎧](https://t.me/WWWL5)
+ [● تنصيب بوتك حماية ⚡](https://t.me/G1VENOMbot)
+ [● تنصيب بوتك ميوزك 🎧](https://t.me/WWWL5)
 
 [⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)""",
         reply_markup=InlineKeyboardMarkup(
