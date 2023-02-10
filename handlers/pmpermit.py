@@ -30,7 +30,7 @@ async def pmPermit(client: USER, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " 𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼𓆪𓂁 ", url=f"https://t.me/MRv7x"
+                        " 𓂄𓆩أَلا بِذِكرِ اللَّهِ تَطمَئِنُّ القُلوبُ𓆪𓂁 ", url=f"https://t.me/AzkarMusIim")
                     )]
             ]
         ),
