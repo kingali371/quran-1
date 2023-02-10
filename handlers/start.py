@@ -23,12 +23,12 @@ async def start_(client: Client, message: Message):
                 InlineKeyboardButton("أضف لبوت لمجموعتك ✅", url=f"https://t.me/{bu}?startgroup=true"),
             ],
             [
-            InlineKeyboardButton( "𝘀𝗼𝗨𝗥𝗰𝗲 𝙈𝙍_𝙓",url=f"https://t.me/AzkarMusIim"),
+            InlineKeyboardButton( "𝘀𝗼𝗨𝗥𝗰𝗲 𝙈𝙍_𝙓",url=f"https://t.me/MUSTAR_X8"),
             ],
             [
-            InlineKeyboardButton("𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/MUSTAR_X8"),
+            InlineKeyboardButton("𝗗𝗲𝘃𝗲𝗟𝗼𝗣𝗲𝗥𝘀", url=f"https://t.me/AzkarMusIim"),
               ],
-               
+              [ 
                   InlineKeyboardButton(
                          " 🎧¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
                 ),
@@ -41,7 +41,7 @@ async def start_(client: Client, message: Message):
   )
 
 @Client.on_message(
-    command(["مبرمج السورس","فينوم"])
+    command(["مبرمج السورس","المستر"])
     & filters.group
     & ~filters.edited
 )
@@ -53,13 +53,11 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𓂄𓆩 𝙰𝙱𝙳𝚄𝙻𝚁𝙰𝙷𝙼𝙰𝙽 𝙼𝚁_𝚇  ☬
-
-𓆪𓂁", url=f"https://t.me/WWWL5"),
+                        "𓂄𓆩 𝙼𝚁_𝚇 𓆪𓂁", url=f"https://t.me/MR_X_N"),
                 ],
                 [
                     InlineKeyboardButton(
-                    "𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/MRv7x"
+                    "𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝚁_𝚇𓆪𓂁", url=f"https://t.me/MR_X_N"
                 ),
             ],
             [
@@ -69,7 +67,7 @@ async def khalid(client: Client, message: Message):
      )
   )
 
-@Client.on_message(command(["أسامة","أسامه","اسامه","اسامة"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["المطور","مطور","المستر","مستر"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
