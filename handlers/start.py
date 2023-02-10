@@ -10,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**⊱⋅━═━═[『 𝗠𝗥_𝗫 』](https://t.me/MRv7x)═━═━⋅⊰**\n
+        caption=f"""**⊱⋅━═━═[『 𝗠𝗥_𝗫 』](https://t.me/MR_X_N)═━═━⋅⊰**\n
 ● **انا بوت تشغيل القرآن الكريم وتنزيل الفديو**\n
 ● **اضفني مشرف في مجموعتك لأعمل**\n
 ● **اتبع مايلي لمعرفه كيفيه الاستخدام**\n
